@@ -13,7 +13,7 @@ public class Pelota extends JFrame implements KeyListener {
     private ImageIcon imagenPelota;
 
     public Pelota() {
-        urlPelota = getClass().getResource("/gfx/pelota.gif");
+        urlPelota = getClass().getResource("/com/iescomercio/gfx/pelota.gif");
         imagenPelota = new ImageIcon(urlPelota);
 
         jpPanel = new JPanel();
